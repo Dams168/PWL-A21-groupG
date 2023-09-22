@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
 }
 
 header {
@@ -20,4 +21,9 @@ header button{
 
 .content {
     padding: 20px;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
 }
